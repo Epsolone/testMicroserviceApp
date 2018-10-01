@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using MessageService.Infostructure.Contract;
 using MessageService.Infostructure.Model;
 using MessageService.Models;
@@ -11,6 +12,7 @@ using MessageService.ViewModels;
 
 namespace MessageService.Controllers
 {
+	[EnableCors(origins: "http://localhost:2564/", headers: "*", methods: "*")]
 	public class MessageController : ApiController
 	{
 		private readonly IMessageService _messageService;

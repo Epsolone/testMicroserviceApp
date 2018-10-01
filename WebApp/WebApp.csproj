@@ -160,26 +160,32 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\ai.0.22.9-build00167.js" />
-    <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\main.css" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\_references.js" />
+    <Content Include="Scripts\app\app.js" />
+    <Content Include="Scripts\app\constant\config.js" />
+    <Content Include="Scripts\app\controllers\mainController.js" />
+    <Content Include="Scripts\app\services\messageService.js" />
+    <Content Include="Scripts\libs\angular\angular-animate.js" />
+    <Content Include="Scripts\libs\angular\angular-animate.min.js" />
+    <Content Include="Scripts\libs\angular\angular-resource.js" />
+    <Content Include="Scripts\libs\angular\angular-resource.min.js" />
+    <Content Include="Scripts\libs\angular\angular-route.js" />
+    <Content Include="Scripts\libs\angular\angular-route.min.js" />
+    <Content Include="Scripts\libs\angular\angular-sanitize.js" />
+    <Content Include="Scripts\libs\angular\angular-ui-notification.js" />
+    <Content Include="Scripts\libs\angular\angular.js" />
+    <Content Include="Scripts\libs\angular\angular.min.js" />
+    <Content Include="Scripts\libs\angular\i18n\angular-locale_en-us.js" />
+    <None Include="Scripts\libs\angular\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\libs\angular\jquery-1.10.2.js" />
+    <Content Include="Scripts\libs\angular\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\libs\angular\jquery-ui.js" />
+    <Content Include="Scripts\libs\lodash.js" />
+    <Content Include="Scripts\libs\multiple-select\multiple-select.js" />
+    <Content Include="Scripts\libs\multiple-select\multiple-select.min.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -200,7 +206,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Scripts\libs\angular\angular-animate.min.js.map" />
+    <Content Include="Scripts\libs\angular\angular-resource.min.js.map" />
+    <Content Include="Scripts\libs\angular\angular-route.min.js.map" />
+    <Content Include="Scripts\libs\angular\angular.min.js.map" />
+    <Content Include="Scripts\libs\angular\jquery-1.10.2.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
