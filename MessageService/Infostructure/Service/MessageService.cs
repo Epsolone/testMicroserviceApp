@@ -35,10 +35,10 @@ namespace MessageService.Infostructure.Service
 
 			try
 			{
-				WebClient client = new WebClient();
-				var url = _notificationServiceUrl + "?messageId=" + message.Id;
-				client.Encoding = System.Text.Encoding.UTF8;
-				client.DownloadStringAsync(new Uri(url));
+					WebClient client = new WebClient();
+					var url = _notificationServiceUrl + "?messageId=" + message.Id;
+					client.Encoding = System.Text.Encoding.UTF8;
+					client.DownloadStringAsync(new Uri(url));
 			}
 			catch (Exception ex)
 			{

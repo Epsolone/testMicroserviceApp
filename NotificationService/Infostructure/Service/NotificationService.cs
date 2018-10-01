@@ -20,7 +20,7 @@ namespace NotificationService.Infostructure.Service
 			//but here now we have hardcode
 
 			Random rnd = new Random();
-			var result = rnd.Next(0, 100)%2 == 0;
+			var result = rnd.Next(0, 100) % 2 == 0;
 
 			try
 			{
@@ -29,7 +29,7 @@ namespace NotificationService.Infostructure.Service
 				client.Encoding = System.Text.Encoding.UTF8;
 				client.DownloadStringAsync(new Uri(url));
 			}
-			catch(Exception ex)
+			catch (Exception ex)
 			{
 				var x = "w";
 			}

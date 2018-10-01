@@ -12,7 +12,7 @@ using MessageService.ViewModels;
 
 namespace MessageService.Controllers
 {
-	[EnableCors(origins: "http://localhost:2564/", headers: "*", methods: "*")]
+	[EnableCors(origins: "*", headers: "*", methods: "*")]
 	public class MessageController : ApiController
 	{
 		private readonly IMessageService _messageService;
